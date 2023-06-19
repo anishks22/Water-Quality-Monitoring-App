@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "648767028184",
+    "project_id": "water-quality-monitoring-app",
+    "storage_bucket": "water-quality-monitoring-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648767028184:android:ddd2dd32de78257b1090ad",
+        "android_client_info": {
+          "package_name": "com.example.water_quality_monitoring_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648767028184-6hnv5um5p2ec246oca2uuk2rbdb3u7d5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0bO8TdSLC1IeSHfB10_TsRwbIUP3jtTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648767028184-6hnv5um5p2ec246oca2uuk2rbdb3u7d5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

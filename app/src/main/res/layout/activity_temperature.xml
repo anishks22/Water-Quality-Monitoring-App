@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:background="@drawable/temp"
+    android:layout_height="match_parent"
+    tools:context=".Temperature"
+    >
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="10dp"-->
+<!--        android:paddingTop="100dp"-->
+<!--        android:text="Temperature"-->
+<!--        android:textStyle="bold"-->
+
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="50dp"-->
+<!--        tools:ignore="MissingConstraints"-->
+
+<!--        tools:layout_editor_absoluteX="0dp"-->
+<!--        tools:layout_editor_absoluteY="89dp" />-->
+
+    <Button
+        android:id="@+id/tempback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="@color/common_google_signin_btn_text_light_focused"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewName"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.CardView"
+        tools:ignore="MissingConstraints,UnknownId"/>
+
+    <TextView
+        android:id="@+id/textViewImageUrl"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:autoLink="web"
+        android:textColor="@color/design_default_color_secondary"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvalue"-->
+<!--        android:layout_width="146dp"-->
+<!--        android:layout_height="157dp"-->
+<!--        android:text="23°C "-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="60dp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.875"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView2"-->
+<!--        app:layout_constraintVertical_bias="0.48" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
